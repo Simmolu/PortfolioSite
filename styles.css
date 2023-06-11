@@ -34,14 +34,14 @@ text-decoration: none; /* This removes the underline from the links. */
 }
 
 main { /* This is a selector for the <main> tag. */
-padding: 20px; /* This adds 20px of padding around the <main>. */
+padding: 40px; /* This adds 20px of padding around the <main>. */
 }
 
 footer { /* This is a selector for the <footer> tag. */
 background-color: #313131; /* This sets the background color of the <footer>. */
 color: white; /* This sets the text color within the <footer>. */
 text-align: center; /* This centers the text within the <footer>. */
-padding: 10px 0; /* This adds 10px of padding to the top and bottom of the <footer> (and 0 to the left and right). */
+padding: 0px 0; /* This adds 10px of padding to the top and bottom of the <footer> (and 0 to the left and right). */
 position: fixed; /* This positions the footer at the bottom of the page. */
 bottom: 0; /* This positions the footer at the bottom of the page. */
 width: 100%; /* This makes sure the footer spans the entire width of the */

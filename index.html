@@ -17,39 +17,25 @@
   <body> <!-- Contains the content that is displayed on the webpage. -->
 
     <header> <!-- Defines a container for introductory content or a set of navigational links. It's typically contains a logo, title, and navigation. -->
-
       <h1>Simmolu's Coding Journey</h1> <!-- Main heading (level 1 heading) that's often used for page titles. -->
-
       <nav> <!-- Defines a section of the document intended for navigation links. -->
-
         <ul> <!-- Unordered list. Items in this list will have bullet points in most browsers unless styled differently with CSS. -->
-
           <li><a href="#about-me">About Me</a></li> <!-- List item. Each navigation link is a list item. The <a> tag defines a hyperlink. The href attribute contains the URL that the link goes to. -->
-
           <li><a href="#projects">Projects</a></li> <!-- The "#" refers to an id on the page. When clicked, the page will scroll to the element with that id. -->
-
-          <li><a href="#contact">Contact</a></li>
-
         </ul>
-
       </nav>
-
     </header>
 
     <main> <!-- The main content area of the webpage. There should be only one <main> per page and it should be unique to the document, excluding content that is repeated across a set of documents such as site navigation, header, or footer. -->
-
       <section id="about-me"> <!-- A standalone section of a document. The id attribute is used as a bookmark for the navigation links. -->
 
         <h2>About Me</h2> <!-- Secondary heading (level 2 heading). There can be multiple of these per page. -->
 
-        <p>I am a Graduated Mechanical Engineer that got interesting in programming my senior year of school. I had always spent a lot of my life 
-            on computers growing up but never really took any chances with trying to learn the code behind all of the programs I used every day.
-
-            The interest however, was always there. And my Senior year of school I took an online Python coding course and was hooked. Now I am on
+        <p>I am a Graduated Mechanical Engineer that got interested in programming my senior year of school. I took an online Python coding course and was hooked. Now I am on
             a path to become a proficent software designer and developer, and hope to work as a software engineer for my future career. I am trying
             to do as many projects as I can in as many langauges as I can to get as much exposure to the world of software development. This website
             serves as my personal portfolio of my projects, and was also coded personally by me. 
-        </p> <!-- Paragraph text. -->
+        </p>
 
       </section>
 
@@ -65,11 +51,8 @@
                 The app has a start and reset button,
                 the "start" button will start a pomodoro set, which consists of 4 blocks of "focus time" and "rest". The focus blocks are 25 minutes
                 long and the rest is 10 minutes. After each set is completed a green checkmark will be added above the buttons. If the reset button 
-                is clicked at any time during the set it will go back to 00:00 and remove all checkmarks. \n
-                  
-                This app required my understanding of:
-                    1. Tk - I had to develop the User Interface for the app with the Tkinter library
-                    2. 
+                is clicked at any time during the set it will go back to 00:00 and remove all checkmarks.<br><br>
+
             <a href="https://github.com/your-username/your-repo" target="_blank">See this project on GitHub</a>
             </p>
           </div>
@@ -81,39 +64,40 @@
                 movement keys WSAD to move the head of the snake around the screen. If the player touches either side of the screen or their own tail 
                 the game ends. There is high score saving capability as well which will add the current score to a text file if it is higher than the 
                 stored value.
+                <br>
+
+                Gameplay: <br><br>
+                <img src = "/media/snek.gif" alt = "Snake Project Gameplay"><br>
                 <a href="https://github.com/Simmolu/Snakey" target="_blank">See this project on GitHub</a>
             </p>
           </div>
         
           <div class="project">
             <h3 class="project-title">Project 3: GUI Bank <div class="caret"></div></h3>
-            <p class="project-description" style="display: none;">Description for Project 3...</p>
+            <p class="project-description" style="display: none;"> 
+                I wrote a dynamic banking application simulator using Python with a Tkinter GUI. The project models functionalities seen in real-world banking software, offering a hands-on approach to understanding core principles in software design and database management. Key Highlights:<br><br>
+                <strong>Interface Design:</strong> Built a user-friendly GUI with Tkinter that guides users through options such as account creation, user login, balance check, deposit, and withdrawal.<br>
+                <strong>Integration:</strong> Utilized SQLite3 to maintain a local database that securely stored user information, including usernames, passwords, account balances, and account creation dates. Implemented CRUD operations for account management. <br>
+                <strong>Authenitcation:</strong> Incorporated a secure login system which allows a user to access their account details, and an admin system to oversee all accounts and manipulate the database. <br>
+                <strong>Operations:</strong> Facilitated basic banking operations such as deposits and withdrawals, updating the balance in real-time and reflecting these changes in the database. <br>
+                <strong>Functions:</strong> Enabled special privileges for an administrator to view all accounts, delete specific accounts, and even wipe the entire database, showcasing the multi-level user role capabilities of the application. <br>
+                <strong>Handling & Validation:</strong> Implemented error handling and validation checks, ensuring correct user input and displaying appropriate feedback messages for situations like invalid login attempts or insufficient account balance. <br>
+                <br>
+                App Usage: <br><br>
+                <img src = "/media/banky.gif" alt = "GUI Bank App"><br>
+                <a href="https://github.com/Simmolu/GUI-Bank" target="_blank">See this project on GitHub</a>
+            </p>
           </div>
-        
-          <div class="project">
-            <h3 class="project-title">Project 4</h3>
-            <p class="project-description" style="display: none;">Description for Project 4...</p>
-          </div>
-        
-          <div class="project">
-            <h3 class="project-title">Project 5</h3>
-            <p class="project-description" style="display: none;">Description for Project 5...</p>
-          </div>
-      </section>
-
-      <section id="contact">
-
-        <h2>Contact</h2>
-
-        <!-- Contact Information --> <!-- Another placeholder comment. -->
-
       </section>
 
     </main>
 
     <footer> <!-- Defines a footer for the document or a section. It should contain information about the author, copyright information, etc. -->
 
-      <p>Copyright &copy; 2023</p> <!-- A paragraph in the footer. The "&copy;" is HTML character entity for the copyright symbol. -->
+      <p>My Github: 
+        <a href=https://github.com/Simmolu target="_blank"></a> 
+    
+      </p>
 
     </footer>
 
