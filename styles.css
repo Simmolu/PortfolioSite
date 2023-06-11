@@ -1,0 +1,73 @@
+body { /* This is a selector for the <body> tag. The properties inside will be applied to the entire <body>. */
+    font-family: Arial, sans-serif; /* This specifies the font of the webpage. If Arial is not available, it will fall back to any sans-serif font. */
+    margin: 0; /* This removes the margin around the <body> that some browsers add by default. */
+    padding: 0; /* This removes the padding around the <body> that some browsers add by default. */
+    background-color: #ffffff; /* This sets the background color of the <body>. */
+}
+  
+header { /* This is a selector for the <header> tag. */
+background-color: #313131; /* This sets the background color of the <header>. */
+color: rgb(255, 0, 0); /* This sets the text color within the <header>. */
+padding: 10px 0; /* This adds 10px of padding to the top and bottom of the <header> (and 0 to the left and right). */
+}
+
+header h1 { /* This is a selector for the <h1> tag within the <header>. */
+margin: 0; /* This removes the margin around the <h1> that some browsers add by default. */
+padding: 0; /* This removes the padding around the <h1> that some browsers add by default. */
+text-align: center; /* This centers the text within the <h1>. */
+}
+
+nav ul { /* This is a selector for the <ul> tag within the <nav>. */
+list-style-type: none; /* This removes the bullet points from the list items. */
+text-align: center; /* This centers the text within the <ul>. */
+padding: 0; /* This removes the padding around the <ul> that some browsers add by default. */
+}
+
+nav ul li { /* This is a selector for the <li> tags within the <ul> within the <nav>. */
+display: inline; /* This makes the list items display in a line (horizontally), instead of vertically. */
+margin: 0 15px; /* This adds 15px of margin to the left and right of each <li> (and 0 to the top and bottom). */
+}
+
+nav ul li a { /* This is a selector for the <a> tags within the <li> tags within the <ul> within the <nav>. */
+color: white; /* This sets the text color of the links. */
+text-decoration: none; /* This removes the underline from the links. */
+}
+
+main { /* This is a selector for the <main> tag. */
+padding: 20px; /* This adds 20px of padding around the <main>. */
+}
+
+footer { /* This is a selector for the <footer> tag. */
+background-color: #313131; /* This sets the background color of the <footer>. */
+color: white; /* This sets the text color within the <footer>. */
+text-align: center; /* This centers the text within the <footer>. */
+padding: 10px 0; /* This adds 10px of padding to the top and bottom of the <footer> (and 0 to the left and right). */
+position: fixed; /* This positions the footer at the bottom of the page. */
+bottom: 0; /* This positions the footer at the bottom of the page. */
+width: 100%; /* This makes sure the footer spans the entire width of the */
+}
+
+.project-title {
+color: #333; /* Set the regular color */
+cursor: pointer; /* Change the cursor to a hand pointer when hovering over the title */
+}
+
+.project-title:hover {
+color: #007BFF; /* Change the color when hovered over */
+}
+
+.caret {
+display: inline-block;
+width: 0;
+height: 0;
+margin-left: 5px;
+vertical-align: middle;
+border-left: 4px solid transparent;
+border-right: 4px solid transparent;
+border-top: 4px solid #333; /* Set the regular color of caret */
+}
+
+.caret.flipped {
+border-bottom: 4px solid #333; /* Set the color of caret when flipped */
+border-top: none;
+}
