@@ -115,13 +115,14 @@
                 <strong>Simulation:</strong> The engine is a realtime rendering of the minimap seen from the players perspective. It seems like you're really standing in a 3 dimensional room! The simulation also checks the player position whenever you try to move, and will stop you if you try to walk through any walls. <br>
                 <strong>Library Usage:</strong> Using the powerful 2D graphics library SFML, I was able to draw the minimap, floor, sky, and all rays which represent the walls being looked at by the player.<br>
                 <strong>Psuedo 3D</strong> Raycasting technically doesn't produce 3 dimensional graphics, but it looks close! Using trigonometry, the engine constanly calculates the distance from the player camera to the walls being looked at, and varies the height of the rays drawn on screen depending on this distance. The end result is what seems like 3D walls being drawn. <br>
-                <strong>Language Usage:</strong> I was able to take full advantage of the Class structure in C++ to allow for compartmentalization of my program. There is a class for handling the Camera, the Minimap, and the overall application loop.<br>
+                <strong>Language Usage:</strong> I made use of the Class structure in C++ once again to compartmentalize my program. There is a class for handling the Camera, the Minimap, and the overall application loop.<br>
                 <br>
                 App Usage: <br><br>
                 <video width="720" height="480" controls>
                   <source src="/media/rayers.mp4" type="video/mp4">
                   Your browser does not support the video tag.
                 </video> 
+                <a href="https://github.com/Simmolu/Raycast" target="_blank">See this project on GitHub</a>
             </p>
           </div>
 
